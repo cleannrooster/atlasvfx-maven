@@ -1,2 +1,2 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+# A Maven repository: every file is served exactly as published, so its checksums match.
+* -text

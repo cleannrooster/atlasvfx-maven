@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.eann",
+    "module": "atlasvfx-neoforge",
+    "version": "0.4.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.10"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.architectury",
+          "module": "architectury-neoforge",
+          "version": {
+            "requires": "13.0.8"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "atlasvfx-neoforge-0.4.1.jar",
+          "url": "atlasvfx-neoforge-0.4.1.jar",
+          "size": 524036,
+          "sha512": "6fccbf03e4e7e12bf97b983615200d15f6acc239a298bd9b350fe2eb9bc440983d7c788350868f0cbb4ec92ce44fad36c6ddeba35fff50655518d9fb366a6dbb",
+          "sha256": "b21af84a22eca09862819d06b52941537be7493ab30471226c99e9c8e081b32e",
+          "sha1": "d424f6f441aab50c7ffcbefd5f5f43edcd826bd0",
+          "md5": "1ba61126c1573ff0bdb2a4055747400e"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "dev.architectury",
+          "module": "architectury-neoforge",
+          "version": {
+            "requires": "13.0.8"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "atlasvfx-neoforge-0.4.1.jar",
+          "url": "atlasvfx-neoforge-0.4.1.jar",
+          "size": 524036,
+          "sha512": "6fccbf03e4e7e12bf97b983615200d15f6acc239a298bd9b350fe2eb9bc440983d7c788350868f0cbb4ec92ce44fad36c6ddeba35fff50655518d9fb366a6dbb",
+          "sha256": "b21af84a22eca09862819d06b52941537be7493ab30471226c99e9c8e081b32e",
+          "sha1": "d424f6f441aab50c7ffcbefd5f5f43edcd826bd0",
+          "md5": "1ba61126c1573ff0bdb2a4055747400e"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "atlasvfx-neoforge-0.4.1-sources.jar",
+          "url": "atlasvfx-neoforge-0.4.1-sources.jar",
+          "size": 4229,
+          "sha512": "06858dd50bd27f8ae80f7ca6d0a8df7ed79af097666e6dfa2c4cdd1fb7a410d7553a8268263553fcdc2e779e82ff25992610b746adcec5cb9da7bfa10bc7ad68",
+          "sha256": "c05876a71f84df3d88ca2133abf1d92edb2ab6667999fdd6f7858e194f2bfde3",
+          "sha1": "51e3bca721af8901cc8e93cbb01aed566d0d990c",
+          "md5": "e678eabdbd542b8c3d6af8f609d1492c"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "atlasvfx-neoforge-0.4.1-dev-shadow.jar",
+          "url": "atlasvfx-neoforge-0.4.1-dev-shadow.jar",
+          "size": 512372,
+          "sha512": "7214dde9015cd3cf86f9516e2f5e42ff01af4c32cd7a9a35e4b156dd1c7fd9e12648014c126965fec23539f6a578f94fa6e78e117333d7503f65803bbd192352",
+          "sha256": "7c836aacd633b67ae51e4b5972498a2151ee8b28c02fd15b286cdbe92557d9f8",
+          "sha1": "d12f74e64d0083261a09c387ed1401dab4e62fda",
+          "md5": "5ca1e75a28e4b9d4ca347ed0fcc4f52b"
+        }
+      ]
+    }
+  ]
+}
