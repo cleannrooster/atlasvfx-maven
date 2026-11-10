@@ -1,0 +1,105 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.eann",
+    "module": "atlasvfx-common",
+    "version": "0.5.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.10"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.architectury",
+          "module": "architectury",
+          "version": {
+            "requires": "13.0.8"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "atlasvfx-common-0.5.0.jar",
+          "url": "atlasvfx-common-0.5.0.jar",
+          "size": 544178,
+          "sha512": "6a6ba631943387af61b5b5960186a2352fb310c868313a9485a4f2e09c8c54a2f4939150c83d0b308fe2054dc025fcea76569cca200fa1cc40e39cb28e0082eb",
+          "sha256": "44c41b8a7ca430955b06ff6e52319a4a8dd1fba3ae6818f300e469b7505ca5ba",
+          "sha1": "7a45b23275aea78f9aefabec8fee600267a17601",
+          "md5": "45ea4a68bd249524281e70bd9b77da91"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "dev.architectury",
+          "module": "architectury",
+          "version": {
+            "requires": "13.0.8"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.5"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "atlasvfx-common-0.5.0.jar",
+          "url": "atlasvfx-common-0.5.0.jar",
+          "size": 544178,
+          "sha512": "6a6ba631943387af61b5b5960186a2352fb310c868313a9485a4f2e09c8c54a2f4939150c83d0b308fe2054dc025fcea76569cca200fa1cc40e39cb28e0082eb",
+          "sha256": "44c41b8a7ca430955b06ff6e52319a4a8dd1fba3ae6818f300e469b7505ca5ba",
+          "sha1": "7a45b23275aea78f9aefabec8fee600267a17601",
+          "md5": "45ea4a68bd249524281e70bd9b77da91"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "atlasvfx-common-0.5.0-sources.jar",
+          "url": "atlasvfx-common-0.5.0-sources.jar",
+          "size": 342972,
+          "sha512": "b1a3bf49ed377fbde418443349904fe14d716ed4b6a671dbccd88df8b702c09feaf9c53ebec71ac8466ebc0593dd4d5432639d23a1f0fd71473506e2fb800510",
+          "sha256": "4abc980a5f47cbf09e7a907bb49d7fd9161daf950f3863c033f90c95d6d41375",
+          "sha1": "33ffe25e8d585f4a577c17a76a708c07fcd5320b",
+          "md5": "b336262973d89a7b493a6b0805f7589d"
+        }
+      ]
+    }
+  ]
+}
