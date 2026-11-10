@@ -1,0 +1,132 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.eann",
+    "module": "atlasvfx-fabric",
+    "version": "0.5.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.10"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.architectury",
+          "module": "architectury-fabric",
+          "version": {
+            "requires": "13.0.8"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "atlasvfx-fabric-0.5.1.jar",
+          "url": "atlasvfx-fabric-0.5.1.jar",
+          "size": 537870,
+          "sha512": "8bd47c87af06a00cfaeaaaf8fa161b6bb3b093391d4b9b1b7db09b2c2079e394186991b0e049ef468a95d059b7dfe5457dd400bd24848f39215d07481ef7f4af",
+          "sha256": "084830bbc0e9705207ce344db45eee2138de629053afa3caa5b80c43954cc58b",
+          "sha1": "2f7c9b242b78c3e7de432bed87ce8c960cee13b2",
+          "md5": "3d0cc5aa94c7233b4a39b765c5adc3f2"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "dev.architectury",
+          "module": "architectury-fabric",
+          "version": {
+            "requires": "13.0.8"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.5"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.102.0+1.21.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "atlasvfx-fabric-0.5.1.jar",
+          "url": "atlasvfx-fabric-0.5.1.jar",
+          "size": 537870,
+          "sha512": "8bd47c87af06a00cfaeaaaf8fa161b6bb3b093391d4b9b1b7db09b2c2079e394186991b0e049ef468a95d059b7dfe5457dd400bd24848f39215d07481ef7f4af",
+          "sha256": "084830bbc0e9705207ce344db45eee2138de629053afa3caa5b80c43954cc58b",
+          "sha1": "2f7c9b242b78c3e7de432bed87ce8c960cee13b2",
+          "md5": "3d0cc5aa94c7233b4a39b765c5adc3f2"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "atlasvfx-fabric-0.5.1-sources.jar",
+          "url": "atlasvfx-fabric-0.5.1-sources.jar",
+          "size": 4177,
+          "sha512": "af39b2c0d87de30bf0ad6e94034b36f461a0a587ee43234ba2a28beedc448a6c64e15895416108d7d06bcb997ef92787981af807239fa1d319e08e20aaaa354c",
+          "sha256": "a13a11556c330211f01559b3be68c1c3dcd6f793fbd76a05ad7fca811fbc4313",
+          "sha1": "eee039b5082ac899fd7fde4bd4c82dc29a1efacc",
+          "md5": "491490ca5f84f896c3d8af5871b8418e"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "atlasvfx-fabric-0.5.1-dev-shadow.jar",
+          "url": "atlasvfx-fabric-0.5.1-dev-shadow.jar",
+          "size": 529440,
+          "sha512": "b6a5f8c8e0d8ecf04c3d416e2eec3f4aecbbef3efc89f3cbc59ff22a555504bf494cb32b6d52a139008097094fbc0169a20a2f629572ea61e23ace1c4a7743af",
+          "sha256": "78677d28a7883c2f86a38a8fe69ba38501d084465e25a50a18ce9caeb01b575b",
+          "sha1": "2cc3d920a987180a8a47cc536570be083f75e3d0",
+          "md5": "ad7d3869919376727f51559654ff4422"
+        }
+      ]
+    }
+  ]
+}
